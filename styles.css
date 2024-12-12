@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Press+Start+2P&display=swap');
+.body{
+  margin: 0;
+  color: white;
+  background-color: black;
+}
+.navbar { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+}
+*{
+    scroll-behavior: smooth;
+}
+.navbar-left{
+     padding-left: 30px;
+     align-items: 50px;
+}
+.navbar-right{
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.myself-h1{
+    font-size: 50px;
+}
+.a1{
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px ;
+    font-size: 20;
+    font-weight: bold;
+}
+.myself{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    background-color: black;
+
+}
+.myself-left{
+    width: 50vw;
+    padding-left: 200px;
+}
+.myself-right{
+    width: 50vw;
+    padding-left: 100px;
+    
+}
+.s-image{
+    border-radius: 50%;
+}
+img{
+  padding: 10px; 
+}
+.logo{
+    height: 100px;
+}
+.para{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+  font-size: 25px;
+}
+.skills{
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+}
+.skills-h1{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: green;
+  letter-spacing: 3px;
+  font-size: 60px;
+}
+.skills-sub{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+    justify-content: space-between;
+}
+.skills-card{
+    border: 2px green solid;
+    margin: 20px;
+    width: 900px;
+}
+.skills-para{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.sk-h1{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.contact{
+    text-align: center;
+}
+.c-h1{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: green;
+  letter-spacing: 3px;
+  font-size: 60px;
+}
+.contact-info{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 30px
+}
+
+.sc-icon-img{
+    width: 50px;
+    padding: 15px;
+}
+
+.t-img{
+    width: 70px;
+}
+.test-sub{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 1300px;
+    justify-content: space-between;
+}
+.testimonials{
+    
+        background-color: black;
+        padding: 50px;
+        text-align: center;
+    
+}
