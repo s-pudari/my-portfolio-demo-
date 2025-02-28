@@ -3,12 +3,15 @@
   margin: 0;
   color: white;
   background-color: black;
+  
+body{
+    background-image: url(circle.jpg);
 }
 .navbar { 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(0, 0, 0);
+    
 }
 *{
     scroll-behavior: smooth;
@@ -32,6 +35,8 @@
     margin: 10px ;
     font-size: 20;
     font-weight: bold;
+    text-decoration: none;
+    color: rgb(236, 116, 204);
 }
 .myself{
     display: flex;
@@ -39,7 +44,7 @@
     align-items: center;
     justify-content: space-between;
     height: 90vh;
-    background-color: black;
+    
 
 }
 .myself-left{
@@ -51,9 +56,9 @@
     padding-left: 100px;
     
 }
-/* .s-image{
+ .s-image{
     border-radius: 50%;
-} */
+} 
 img{
   padding: 10px; 
 }
@@ -68,7 +73,7 @@ img{
   font-size: 25px;
 }
 .skills{
-    background-color: black;
+   
     padding: 50px;
     text-align: center;
 }
