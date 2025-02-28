@@ -37,6 +37,12 @@ body{
     font-weight: bold;
     text-decoration: none;
     color: rgb(236, 116, 204);
+    transition: color 0.3s ease,transform 0.2s ease;
+    cursor:pointer;
+}
+.a1:hover{
+    background-color: #2980b9;
+    transform: scale(1.1);
 }
 .myself{
     display: flex;
